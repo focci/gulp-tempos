@@ -14,10 +14,11 @@ gulp.task('tempos', function() {
     gulp.src(['src/*.temp'])
     .pipe( tempos(null, {
     	extname: '.html'
-    }) )
+    }))
     .pipe(gulp.dest('./dist'));
 });
 ```
+
 ## Parameter
 | Parameter    |  Discription               |
 | ------- |:------------------------------: |
