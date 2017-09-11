@@ -14,7 +14,7 @@ const gulpTempos = function(data, option) {
 	option = option || {};
 
 	return through.obj(function (file, enc, cb) {
-		debugger
+		
 		if( file.isNull() ) {
 			this.push(file);
       		return cb();
