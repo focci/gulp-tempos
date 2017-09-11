@@ -20,9 +20,10 @@ gulp.task('tempos', function() {
 ```
 
 ## Parameter
-| Parameter    |  Discription               |
+| Parameter    |  Description               |
 | ------- |:------------------------------: |
-| extname | The extension of the output file|
+| data    | The data object to be imported  |
+| option  | Only one parameter is included (extname: the extension of the output file)|
 
 ## Donation
 ![Wechat](https://coding.net/u/focci/p/asset/git/raw/master/focci_wechat.jpg)
