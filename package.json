@@ -1,16 +1,25 @@
 {
   "name": "gulp-tempos",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Gulp plugin to compile tempos templates.",
-  "main": "index.js",
+  "main": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "tempos": "^1.0.2",
+    "gulp-util": "3.0.8",
+    "object-assign": "^4.1.0",
+    "safe-buffer": "^5.0.1",
+    "through2": "2.0.3"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/focci/gulp-tempos.git"
   },
   "keywords": [
+    "gulpplugin",
+    "gulp",
     "gulp-tempos",
     "tempos"
   ],
