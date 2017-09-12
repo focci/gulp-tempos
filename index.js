@@ -9,12 +9,10 @@ const Buffer = require('safe-buffer').Buffer;
 const PLUGIN_NAME = "gulp-tempos";
 
 const gulpTempos = function(data, option) {
-
 	data = data || {};
 	option = option || {};
 
 	return through.obj(function (file, enc, cb) {
-		
 		if( file.isNull() ) {
 			this.push(file);
       		return cb();
@@ -26,6 +24,7 @@ const gulpTempos = function(data, option) {
 
 		data = assign({}, data, file.data);
 		option.template = file.contents.toString();
+		option.filepath =file.path;
 		try {
 			file.contents = new Buffer(
 				tempos(null, data, option)
