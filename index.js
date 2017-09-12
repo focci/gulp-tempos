@@ -25,8 +25,8 @@ const gulpTempos = function(data, option) {
 		}
 
 		data = assign({}, data, file.data);
+		option.template = file.contents.toString();
 		try {
-			option.template = file.contents.toString();
 			file.contents = new Buffer(
 				tempos(null, data, option)
 			);
