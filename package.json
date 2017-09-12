@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/focci/gulp-tempos/issues"
   },
-  "homepage": "https://github.com/focci/gulp-tempos#readme"
+  "homepage": "https://github.com/focci/gulp-tempos#readme",
+  "devDependencies": {
+    "tempos": "^1.0.2"
+  }
 }
