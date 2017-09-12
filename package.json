@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "tempos": "^1.0.2",
+    "tempos": "^1.0.3",
     "gulp-util": "3.0.8",
     "object-assign": "^4.1.0",
     "safe-buffer": "^5.0.1",
@@ -28,8 +28,5 @@
   "bugs": {
     "url": "https://github.com/focci/gulp-tempos/issues"
   },
-  "homepage": "https://github.com/focci/gulp-tempos#readme",
-  "devDependencies": {
-    "tempos": "^1.0.2"
-  }
+  "homepage": "https://github.com/focci/gulp-tempos#readme"
 }
