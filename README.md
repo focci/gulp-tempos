@@ -26,6 +26,6 @@ gulp.task('tempos', function() {
 | option  | Only one parameter is included (extname: the extension of the output file)|
 
 ## Donation
-![Wechat](https://coding.net/u/focci/p/asset/git/raw/master/focci_wechat.jpg)
+![Wechat](https://raw.githubusercontent.com/focci/asset/master/pay/wechat.jpg)
 &nbsp;&nbsp;&nbsp;&nbsp;
-![Alipay](https://coding.net/u/focci/p/asset/git/raw/master/focci_alipay.jpg)
+![Alipay](https://raw.githubusercontent.com/focci/asset/master/pay/alipay.jpg)
