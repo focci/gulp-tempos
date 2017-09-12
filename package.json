@@ -1,6 +1,6 @@
 {
   "name": "gulp-tempos",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Gulp plugin to compile tempos templates.",
   "main": "./index.js",
   "scripts": {
