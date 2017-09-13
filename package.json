@@ -1,13 +1,13 @@
 {
   "name": "gulp-tempos",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Gulp plugin to compile tempos templates.",
   "main": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "tempos": "^1.0.3",
+    "tempos": "^1.0.5",
     "gulp-util": "3.0.8",
     "object-assign": "^4.1.0",
     "safe-buffer": "^5.0.1",
